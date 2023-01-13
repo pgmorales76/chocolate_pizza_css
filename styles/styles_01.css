@@ -99,3 +99,29 @@ h2 {
     color: gray;
     font-size: 20px;
 }
+
+form {
+    width: 700px;
+    height: 250px;
+    border: 1px solid black;
+    box-shadow: 5px 10px #aaaa;
+    background-image: url("/assets/list-bg.png");
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+#form_parent_div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.ingredients {
+    display: flex;
+    flex-direction: column;
+    margin-top: 5px;
+}
+
+.ingredients label {
+    margin-top: 10px;
+}
