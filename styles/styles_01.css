@@ -125,3 +125,35 @@ form {
 .ingredients label {
     margin-top: 10px;
 }
+
+#vanessa {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#vanessa_info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+button {
+    background-color: #ff5500;
+    border: solid #ff5500;
+    color: white;
+    width: 200px;
+    height: 50px;
+}
+
+#footer {
+    color: gray;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#footer p {
+    margin-top: 5px;
+}
