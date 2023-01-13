@@ -1,41 +1,37 @@
 #body_element {
-    margin: 4rem;
     display: flex;
     flex-direction: column;
+    justify-content: space-evenly;
+    margin: 4rem;
 }
 
 /* Header */
 
 #header_div {
-    justify-content: space-between;
     display: flex;
-    flex-direction: row;
+    justify-content: space-between;
+    height: 4rem;
+    margin-bottom: 1rem;
 }
 
 #logo_div {
     display: flex;
-    flex-direction: row;
-}
-
-.knife_and_fork {
-    width: 65px;
-    height: 65px;
 }
 
 #logo_child {
-    margin-left: 1rem;
     display: flex;
     flex-direction: column;
 }
 
-h1 {
-    font-family: 'Dancing Script';
+#logo_child h1 {
+    font-family: 'Dancing Script', cursive;
     font-size: 3rem;
-    font-weight: bold;
 }
 
-#logo_child p {
-    font-family: Dosis;
+#logo_child span {
+    font-family: sans-serif;
+    font-size: 8px;
+    color: gray;
 }
 
 #social_media {
@@ -49,9 +45,9 @@ h1 {
 }
 
 .line_break {
+    background-image: url("/assets/hr-img.png");
     width: 100%;
     height: 8px;
-    background-image: url("/assets/hr-img.png");
 }
 
 /* Main */
@@ -61,17 +57,17 @@ main {
 }
 
 h2 {
+    font-family: 'Courier New', Courier, monospace;
     font-size: 3rem;
     font-weight: bold;
-    font-family: 'Courier New', Courier, monospace;
 }
 
 #print_div_parent {
-    color: gray;
-    margin-top: 10px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    color: gray;
+    margin-top: 10px;
 }
 
 #print_div_parent p {
@@ -87,3 +83,19 @@ h2 {
     height: 20px;
 }
 
+#instructions {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#instructions img {
+    margin-top: 2rem;
+}
+
+.instructions_paragraph {
+    margin: 1rem;
+    line-height: 30px;
+    color: gray;
+    font-size: 20px;
+}
