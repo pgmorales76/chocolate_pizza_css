@@ -56,3 +56,34 @@ h1 {
 
 /* Main */
 
+main {
+    margin-bottom: 5rem;
+}
+
+h2 {
+    font-size: 3rem;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#print_div_parent {
+    color: gray;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#print_div_parent p {
+    font-family: Dosis;
+}
+
+#print_div_child {
+    display: flex;
+}
+
+#print_div_child img {
+    width: 20px;
+    height: 20px;
+}
+
